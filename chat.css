@@ -1,0 +1,243 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.container > a{
+  text-decoration: none;
+}
+
+.signOut{
+    margin-left: 900px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+  .text-decoration-none{
+  text-decoration: none!important;
+  }
+    .me{
+      background: #fff !important;
+    }
+    .fa-user{
+      font-size: 25px !important;
+      color: #2C64D4;
+    }
+.community-space{
+    margin: 50px 170px 0px 170px;
+    background:  #E6EAEA;
+    display: flex;
+    flex-direction: row;
+}
+
+.tenant-list{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+
+}
+#tenant-chat-title{
+    margin-top: 30px;
+    height: 78px;
+    margin-left: 20px;
+    background: #FFFFFF;
+    
+
+
+
+}
+#tenant-chat{
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid #C4C4C4;
+    margin-left: 20px;
+}
+
+.tenant-image{
+    width: 50px;
+    height: 50px;
+    background-color: lightslategray;
+    margin: 10px ;
+}
+
+
+.head{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 30px;
+    color: #2C64D4;
+
+}
+
+.name{
+    margin: 30px 100px 30px 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 33px;
+    color: #746b6b;
+}
+
+.chatroom{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 1000px;
+}
+
+
+#chat-header{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    margin-top: 20px;
+    /* margin: 20px  45px 20px 400px ; */
+    /* identical to box height */
+
+
+color: #2C64D4;
+}
+
+#tenant-text{
+   
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.user-image{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    margin-left: 30px;
+    background-image: url('../assets/Mary.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.user-text{
+    width: 814px;
+    height: 100px;
+    background: #FFFFFF;
+    margin-left: 30px;
+    border-radius: 0px 20px 20px 20px;
+}
+
+.user-text > p{
+    margin: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 139% */
+
+
+color: #000000;
+}
+
+
+#landlord-text{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+
+.owner-text{
+    width: 814px;
+    height: 100px;
+    background: #F6FBFF;
+    border-radius: 0px 20px 20px 20px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin-left: 30px;
+
+    }
+
+.owner-text > p{
+    margin: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+.owner-image{
+    height: 80px;
+    width: 80px;
+    background-color: maroon;
+    border-radius: 50px;
+    margin-left: 30px;
+    background-image: url("https://media1.s-nbcnews.com/j/newscms/2015_42/1261876/damontweedy_alt4_stocksphotography_c6277cf52c45e33c8c021c891f10beab.fit-760w.jpg");
+    background-size: cover;
+}
+
+.footer{
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    background: #303441;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+}
+
+.input-container{
+    margin-top: 10px;
+    height: 115px;
+    width: 1028px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    color: black;
+}
+
+.input{
+    height: 30px;
+    width: 700px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    border: none;
+    margin-left: 100px;
+    /* identical to box height, or 100% */
+    color: #423636;
+}
+
+.fa{
+        color: #2C64D4;
+        margin-left: 5px;
+}
+
+
+footer>p{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}

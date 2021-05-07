@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+.bunner {
+  height: 100vh;
+  /* width: 100%; */
+  background: #888;
+  background-image: url("https://i1.wp.com/luxafrique.net/wp-content/uploads/2016/05/house-lux-afrique.jpg?fit=1024%2C682&ssl=1");
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Ubuntu', sans-serif
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 1);
+}
+
+.lh-1 {
+  line-height: 80%;
+}
+
+.lh-2 {
+  line-height: 50%;
+}
+
+.prof img {
+  width: 30%;
+}
+
+.tt-1 {
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.tt-2 {
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.tt-5 {
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.tt-3 {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #2c64d4;
+}
+
+.tt-4 {
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* 
+  .bunner-card{
+      left: 300px;
+      top: 500px
+
+  } */
+
+.card {
+  border: none !important;
+}
+
+.card-house {
+  border-radius: 15px !important;
+  margin: 20px 15px;
+}
+
+.card-house img {
+  border-radius: 15px 0px 0px 15px;
+}
+
+
+.wrapper {
+  background-color: #f4f2f7;
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 15px 20px;
+  border-radius: 10px
+}
+
+.imagebg h4 {
+  font-weight: 800;
+  color: #888
+}
+
+label {
+  font-weight: 700;
+  color: #888;
+  font-size: 12px
+}
+
+.card-no {
+  border: none;
+  outline: none;
+  width: 90%;
+  padding-left: 8px
+}
+
+.form-control {
+  outline: none;
+  border: none;
+  box-shadow: none
+}
+
+.card-number {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 8px 2px
+}
+
+.imagebg a {
+  font-size: 12px;
+  font-weight: 900;
+  /* margin-left: 30% */
+}
+
+a {
+  text-decoration: none
+}
+
+.form-inline label {
+  font-size: 1rem
+}
+
+.focused {
+  border: 2px solid #9ab3f5
+}
+
+#form-footer a {
+  margin: 0
+}
+
+#form-footer p {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #777
+}
+
+@media(max-width:395px) {
+  .form-inline label {
+      font-size: 12px
+  }
+
+  #form-footer p {
+      font-size: 11px
+  }
+
+  .card-no {
+      width: 85%
+  }
+}
+
+.imagebg{
+  height: 100%;
+  /* width: 100%; */
+  background: red;
+  background-image: url("https://images.unsplash.com/photo-1592651595956-9dece157e4f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+
+.testimonials-item{
+  font-size: 16px;
+  text-align: center;
+}
+
+.testimonials-item img{
+  border-radius: 50%;
+}
+
+.font-t{
+  padding: 10px 0;
+  color:rgb(67, 195, 112);
+  font-size: 14px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.testimonials-title{
+  padding: 10px 0 0 0;
+}
